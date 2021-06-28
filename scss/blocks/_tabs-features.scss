@@ -1,0 +1,25 @@
+.tabs-features {
+  display: flex;
+  justify-content: center;
+  @include list-unstyled;
+}
+
+.tabs-features__link {
+  display: block;
+  padding: 15px 45px;
+  text-decoration: none;
+  color: #fff;
+
+  &:hover {
+    color: $color-light-coral;
+  }
+
+  // &--boshqacha {
+  //   boshqa stillar
+  // }
+}
+
+.tabs-features__item--active .tabs-features__link {
+  background-color: $color-light-coral;
+  color: $color-dark-green;
+}
