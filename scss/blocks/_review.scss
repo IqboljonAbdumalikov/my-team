@@ -5,6 +5,7 @@
 }
 
 .review__text {
+  margin-top: 0;
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 24px;
@@ -16,10 +17,15 @@
   margin-top: 0;
   margin-bottom: 2px;
   color: $color-rapture-blue;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
 }
 
 .review__author-position {
   margin-top: 0;
+  font-size: 13px;
+  line-height: 18px;
   margin-bottom: 32px;
   font-weight: 500;
   font-style: italic;
@@ -29,9 +35,6 @@
   border-radius: 50%;
   transition: transform 0.4s ease;
 
-  // &:hover {
-  //   transform: rotate(360deg);
-  // }
 }
 
 .review:hover .review__author-image {

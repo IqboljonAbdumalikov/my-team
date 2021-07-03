@@ -1,4 +1,12 @@
 .reviews {
+  background-image: url("../../images/delivery-right-bottom-bg.svg"),
+                     url("../../images/delivery-top-left-bg.svg");
+  background-repeat: no-repeat,
+                     no-repeat;
+  background-size: 200px 200px,
+                   147px 200px;
+  background-position: calc(50% + 573px) calc(50% + 367px),
+                       calc(50% - 601px) calc(50% - 317px);
   padding-top: 140px;
   padding-bottom: 140px;
 }
@@ -24,6 +32,7 @@
   @include list-unstyled;
   margin-left: -30px;
   margin-bottom: -30px;
+  padding-top: 36px;
 }
 
 .reviews__item {
